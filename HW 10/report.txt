@@ -1,0 +1,47 @@
+
+best 
+
+Time complexity : O(n^3)
+
+Space complexity : O(n^2)
+
+
+total
+
+Time complexity : O(n^3)
+
+Space complexity : O(n^2)
+
+
+kbest
+
+Time complexity : O((n^3) + (n^2)*k*logn)
+
+Space complexity : O((n^2)* k)
+
+
+DEBRIEFING : 
+
+
+0. What's your name?
+
+Sankaranarayanan Srinivasan 
+
+1. Approximately how many hours did you spend on this assignment?
+20 hrs
+
+2. Would you rate it as easy, moderate, or difficult?
+
+very difficult
+
+3. Did you work on it mostly alone, or mostly with other people?
+
+Mostly alone but discussed last two problem with others
+
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+
+65%
+
+5. Any other comments?
+
+NA

@@ -1,0 +1,37 @@
+    top down : O(nlogn)
+      bottom up: O(n)
+
+2. Qa: What's the complexity of this DP?
+       O(nlogn)  
+
+   Qb: What's the name of this famous number series?
+       Catalan number
+
+Debriefing : --------------------------
+
+0. What's your name?
+Sankaranarayanan Srinivasan
+
+1. Approximately how many hours did you spend on this assignment?
+4-5 hours
+
+2. Would you rate it as easy, moderate, or difficult?
+Moderate
+
+3. Did you work on it mostly alone, or mostly with other people?
+Mostly with other people
+
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+90%
+ 
+5. Which part(s) of the course you like the most so far?
+Sorting, searching algorithms, some parts of dynamic programming
+
+6. Which part(s) of the course you dislike the most so far?
+Heaps, BST - I find them to difficult to understand
+
+7. Take a moment to reflect on your Quiz 1 and Quiz 2 performance,
+   (make sure you understand all the problems that you got wrong),
+   and what you plan to achieve in the Midterm.
+I plan to score better than I did in Quiz 2.
+I realised all the mistakes which I had done and could have been avoided if my concepts were clearer.

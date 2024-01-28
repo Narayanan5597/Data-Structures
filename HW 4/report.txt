@@ -1,0 +1,49 @@
+
+0.
+ (1) insert each element into the heap  --- O(nlogn) -- heapq.heappush()
+ (2) heapify (top-down)                 --- O(n)     -- heapq.heapify()
+
+ (a)  heapq.heappush() - The algorithm takes O(nlogn) to push all the n elements.
+            O(n) to maintain the heap and O(logn) to push
+0.2. heapq.heapify()
+            - MAX-HEAPIFY when called on a node of height h is O(h)
+            - Build max heap is bounded by Summation(n/2^h+1) where h from 0:logn
+            - Taking n as common will become => n*Summation(1/2^h+1) where h from 0:logn
+
+ (b) a = random.sample(range(100000), 10000)
+   %timeit heapq.heapify(a) -> 1000 loops, best of 3: 674 µs per loop
+   %timeit heapq.heappush(a,1) -> 1000000 loops, best of 3: 205 ns per loop
+ 
+ (c) For an array or list which is sorted in reverse order , Max Heap would take O(1) 
+
+
+1) (a) O(n^2 (logn))
+   (b) O(n^2)
+   (c) O(nlogn)
+
+2) K way merge sort is similar to merge sort whose basic functionality is to divide the random array into n times 
+  and then it performs combine operation recursively. Similarly for k sorted arrays  it would take log k times to combine the 
+  k arrays into one sorted array. So the overall time complexity would be (k n log k) 
+  
+    T(n) = k.T(n/k) + O (k+nlogk)   k<<n
+    k.T(n/k) + O (nlogk)
+    nlogk.logkn
+    nlogk. (logn/logk)
+    nlogk
+
+3) Time Complexity for heapq.heappush(queue, -1* arr[i] ) = K times Log k
+   Time Complexity for heap.heapreplace = (n - k) times log k 
+   K log k  + (n - k) log k = n log k 
+
+
+
+Debrief
+1  What's your name? Sankaranarayanan
+2  Approximately how many hours did you spend on this assignment? 7
+3  Would you rate it as easy, moderate, or difficult?. Moderate
+4  Did you work on it mostly alone, or mostly with other people? Mostly Alone
+  Note you are encouraged to discuss with your classmates, 
+  but each students should submit his/her own code.. 
+5  How deeply do you feel you understand the material it covers (0%-100%)? 80
+   Which part(s) of the course you like the most so far?  K way Merge Sort
+6. Which part(s) of the course you dislike the most so far? Nill

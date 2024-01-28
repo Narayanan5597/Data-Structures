@@ -1,0 +1,19 @@
+
+ Which of the following sorting algorithms are (or can be made) stable?
+   (a) mergesort is a strictly stable algorithm 
+   (b) quicksort with the first element as pivot is not stable but there are possibilties that it can be made stable
+   (c) quicksort with randomized pivot is not stable but there are possibilties that it can be made stable
+   (d) selection sort (assuming you've learned it in data structures) is not stable but there are possibilties that it can be made stable
+   (e) insertion sort (assuming you've learned it in data structures) is strictly stable 
+   (f) heap sort --- not covered yet (see CLRS Ch. 6) is not stable and cannot be made stable 
+
+
+
+Debreifing
+1. Approximately how many hours did you spend on this assignment? 5hrs
+2. Would you rate it as easy, moderate, or difficult? Moderate 
+3. Did you work on it mostly alone, or mostly with other people? Alone 
+   Note you are encouraged to discuss with your classmates, 
+   but each students should submit his/her own code.
+4. How deeply do you feel you understand the material it covers (0%-100%)?  90%
+5. Any other comments? No Comments

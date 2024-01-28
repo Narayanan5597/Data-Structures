@@ -1,0 +1,56 @@
+0. (a) Facebook	
+   undirected, sparse, cyclic
+
+   (b) Twitter
+   directed, sparse , cyclic 
+
+   (c) a family
+   undirected, dense, cyclic
+
+   (d) V=airports, E=direct_flights
+   undirected, sparse, cyclic
+   (assuming if there is a direct flight from A to B,
+    there must also be a direct flight from B to A)
+
+   (e) a mesh
+   undirected, sparse, cyclic
+
+
+  (f) V=courses, E=prerequisites
+   directed, sparse, acyclic
+
+   (g) a tree
+   undirected, sparse, acyclic
+   
+   (h) V=linux_software_packages, E=dependencies
+   directed, sparse, acyclic
+
+   (i) DP subproblems for 0-1 knapsack
+   directed, sparse, acyclic
+
+   Can you name a very big dense graph?
+   No. Naturally occuring big graphs are fundamentally sparse.ted, sparse, cyclic
+
+
+1. questions:
+   (a) did you realize that bottom-up implementations of DP use (implicit) topological orderings?
+       e.g., what is the topological ordering in your (or my) bottom-up bounded knapsack code?
+Yes
+   (b) what about top-down implementations? what order do they use to traverse the graph?
+BFS
+   (c) does that suggest there is a top-down solution for topological sort as well?
+Yes
+
+
+
+
+0. What's your name?  Sankaranarayanan Srinivasan 
+1. Approximately how many hours did you spend on this assignment? 4 hrs
+2. Would you rate it as easy, moderate, or difficult? Moderate
+3. Did you work on it mostly alone, or mostly with other people? With Other people 
+4. How deeply do you feel you understand the material it covers (0%-100%)? 75%
+5. Take a moment to reflect on your midterm performance; separate the data structures and DP parts. 
+   Now, do you understand all the problems you didn't solve correctly?  
+   Data Structures was easy but DP was quite hard 
+6. Any other comments?  No comments 
+

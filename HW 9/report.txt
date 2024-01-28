@@ -1,0 +1,32 @@
+
+1. Dijkstra Algorithm
+
+   Time complexity: O((V+E)logV)
+   Space Complexity: O(V)
+
+ Q: What if you only have heapq, can you still make Dijkstra work (with the built-in heapq)?
+    Can you re-analyze the time/space complexities?
+    yes It can be reanalysed 
+    Time  : O(V+ElogE)
+   
+   Q: Is Dijkstra a greedy algorithm or dynamic programming algorithm?
+      Overall, it is a dynamic programming algorithm. But at every node, it is greedy- it chooses the best possible path    
+
+   Q: for problems that can be solved by both Dijkstra and Viterbi, which one is faster?
+      It Depends on the problem
+
+2. Time complexity : O(N^2*2^N)
+   Space Complexity: O(2^n)
+
+
+
+
+0. What's your name?  Sankaranarayanan Srinivasan 
+1. Approximately how many hours did you spend on this assignment? 4 hrs
+2. Would you rate it as easy, moderate, or difficult? Moderate
+3. Did you work on it mostly alone, or mostly with other people? With Other people 
+4. How deeply do you feel you understand the material it covers (0%-100%)? 75%
+5. Take a moment to reflect on your midterm performance; separate the data structures and DP parts. 
+   Now, do you understand all the problems you didn't solve correctly?  
+   Data Structures was easy but DP was quite hard 
+6. Any other comments?  No comments 
